@@ -1,0 +1,143 @@
+.header__search {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.search__title {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #fefefe;
+    letter-spacing: 1px;
+}
+
+.search__bar {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #3e3e3e;
+    font-size: 22px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+header input {
+    width: 300px;
+    height: 40px;
+    border: none;
+}
+
+header input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #3e3e3e;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.search__main {
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.main-title {
+    font-size: 22px;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 22px;
+}
+
+.genre__line1 {
+    display: flex;
+    justify-content: center;
+}
+
+.genre__line2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.genre__title {
+    margin: 0px 20px 20px 0px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.genre__title-text {
+    font-size: 17px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    width: 100px;
+    word-break: keep-all;
+}
+
+.genre__title-img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    -webkit-box-shadow: 0px 5px 38px 0px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 0px 5px 38px 0px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 5px 38px 0px rgba(0, 0, 0, 0.59);
+    right: 0;
+    transform: rotate(25deg) translate(18%, -2%);
+}
+
+.hiphop {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(177, 106, 11, 1) 0%, rgba(235, 149, 34, 1) 73%);
+}
+
+.jazz {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(99, 144, 163, 1) 0%, rgba(155, 189, 204, 1) 73%);
+}
+
+.pop {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(114, 177, 121, 1) 0%, rgba(189, 232, 194, 1) 73%);
+}
+
+.indie {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(52, 10, 168, 1) 0%, rgba(63, 0, 237, 1) 73%);
+}
+
+.new-music {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(102, 150, 171, 1) 0%, rgba(155, 189, 204, 1) 73%);
+}
+
+.top-music {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(38, 122, 98, 1) 0%, rgba(73, 142, 122, 1) 73%);
+}
+
+.country {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(203, 146, 41, 1) 0%, rgba(251, 197, 98, 1) 73%);
+}
+
+.mood {
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient(180deg, rgba(53, 116, 193, 1) 0%, rgba(78, 150, 237, 1) 73%);
+}

@@ -1,0 +1,37 @@
+.nav {
+    border-top: 1px solid #1a1b1d;
+    background-color: #222325;
+    position: fixed;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    padding: 15px 10px;
+
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__list-items {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav i {
+    margin-bottom: 5px;
+}
+
+.nav__list-text {
+    font-size: 10px;
+}
+
+.nav__list-icon,
+.nav__list-text {
+    color: #e5e5e5;
+}

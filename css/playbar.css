@@ -1,0 +1,48 @@
+.playbar {
+    background-color: #222325;
+    display: flex;
+    position: fixed;
+    bottom: 60px;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+}
+
+.playbar__column2 {
+    z-index: 1;
+}
+
+.playbar__column1,
+.playbar__column3 {
+    background-color: #222325;
+    z-index: 2;
+}
+
+.playbar__column-singer {
+    opacity: 0.6;
+}
+
+.playbar__icon {
+    padding: 0px 30px;
+    font-size: 12px;
+}
+
+.playbar__column1:active {
+    color: red;
+}
+
+@keyframes flow {
+    from {
+        transform: translateX(-250px);
+    }
+
+    to {
+        transform: translateX(260px);
+    }
+}
+
+.playbar__playing {
+    animation: flow 13s linear infinite running
+}

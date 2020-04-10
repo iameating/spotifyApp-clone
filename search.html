@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fbb86d806d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\styles.css">
+    <title>Search | SpotifyApp Clone</title>
+</head>
+
+<body>
+    <header class="header__search">
+        <div class="search__title">
+            <span>Search</span>
+        </div>
+        <div class="header__search-bar search__bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Artists, songs, or podcasts" class="header__search-bar-write">
+        </div>
+    </header>
+    <main class="search__main">
+        <div class="main-title">
+            <span>가장 많이 듣는 장르</span>
+        </div>
+        <ul class="main__genre">
+            <li class="genre__line1">
+                <div class="genre__title hiphop">
+                    <span class="genre__title-text">힙합</span>
+                    <img src=" img\genre\hiphop.jpeg" class="genre__title-img">
+                </div>
+                <div class=" genre__title jazz">
+                    <span class="genre__title-text">재즈</span>
+                    <img src="img\genre\jazz.jpeg" class="genre__title-img">
+                </div>
+            </li>
+            <li class="genre__line2">
+                <div class="genre__title pop">
+                    <span class="genre__title-text">팝</span>
+                    <img src="img\genre\pop.jpeg" class="genre__title-img">
+                </div>
+                <div class="genre__title indie">
+                    <span class="genre__title-text">인디 및 얼터너티브</span>
+                    <img src="img\genre\indie.jpeg" class="genre__title-img">
+                </div>
+            </li>
+        </ul>
+        <ul class="main__genre">
+            <div class="main-title">
+                <span>모두 찾아보기</span>
+            </div>
+            <li class="genre__line1">
+                <div class="genre__title new-music">
+                    <span class="genre__title-text">New Music</span>
+                    <img src="img\genre\new music.jpeg" class="genre__title-img">
+                </div>
+                <div class="genre__title top-music">
+                    <span class="genre__title-text">Top Music</span>
+                    <img src="img\genre\top50.jpeg" class="genre__title-img">
+                </div>
+            <li class="genre__line2">
+                <div class="genre__title country">
+                    <span class="genre__title-text">컨트리</span>
+                    <img src="img\genre\country.jpeg" class="genre__title-img">
+                </div>
+                <div class="genre__title mood">
+                    <span class="genre__title-text">무드</span>
+                    <img src="img\genre\mood.jpeg" class="genre__title-img">
+                </div>
+            </li>
+        </ul>
+    </main>
+    <div class="playbar">
+        <div class="playbar__column1">
+            <span class="playbar__icon heart">
+                <i class="far fa-heart fa-2x"></i>
+            </span>
+        </div>
+        <div class="playbar__column2 playbar__playing">
+            <span class="playbar__column-song song">C.R.E.A.M.</span>
+            <span class="playbar__column-singer singer">· Wu-Tang Clan</span>
+        </div>
+        <div class="playbar__column3">
+            <span class="playbar__icon">
+                <i class="far fa-pause-circle fa-2x"></i>
+            </span>
+            <span class="playbar__icon">
+                <i class="fas fa-step-forward fa-2x"></i>
+            </span>
+        </div>
+    </div>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-items" style="opacity: 0.6;">
+                <a href="index.html" class="nav__list-icon">
+                    <span>
+                        <i class="fas fa-home fa-2x"></i>
+                    </span>
+                </a>
+                <a href="index.html" class="nav__list-text">
+                    <span class="nav__list-text">Home</span>
+                </a>
+            </li>
+            <li class="nav__list-items">
+                <a href="search.html" class="nav__list-icon">
+                    <span>
+                        <i class="fab fa-searchengin fa-2x"></i>
+                    </span>
+                </a>
+                <a href="search.html" class="nav__list-text">
+                    <span>Search</span>
+                </a>
+            </li>
+            <li class="nav__list-items" style="opacity: 0.6;">
+                <a href="library-music-1.html" class="nav__list-icon">
+                    <span>
+                        <i class="fas fa-book-open fa-2x"></i>
+                    </span>
+                </a>
+                <a href="library-music-1.html" class="nav__list-text">
+                    <span>Your Library</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
