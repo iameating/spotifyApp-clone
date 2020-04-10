@@ -6,6 +6,8 @@
 @import"home.css";
 @import"lib.css";
 @import"search.css";
+@import"mobile.css";
+
 
 * {
     box-sizing: border-box;
