@@ -17,13 +17,15 @@
 
 .recentplay {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-left: 25px;
+    margin-right: 20px;
 }
 
 .recentplay li {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 10px 0px;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
@@ -36,15 +38,15 @@
 }
 
 .recentplay img {
-    height: 140px;
-    width: 140px;
+    height: 130px;
+    width: 130px;
     margin-bottom: 6px;
 }
 
 .repeatplay {
     display: flex;
     justify-content: center;
-    margin-left: 140px;
+    margin-left: 200px;
 }
 
 .repeatplay li {
